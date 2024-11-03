@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>The Unicorn Game 🦄🌈</h1>
+    </header>
+    <div id="game">
+      <div id="stats">
+        <span class="stat"
+          >XP: <strong><span id="xpText">0</span></strong></span
+        >
+        <span class="stat"
+          >Health: <strong><span id="healthText">100</span></strong></span
+        >
+        <span class="stat"
+          >Rainbow Dust: <strong><span id="goldText">50</span></strong></span
+        >
+      </div>
+      <div id="controls">
+        <button id="button1">Go to Rainbow 🌈</button>
+        <button id="button2">Go to Stables 🦄</button>
+        <button id="button3">Fight dragon 🐉</button>
+      </div>
+      <div id="monsterStats">
+        <span class="stat"
+          >Dragon Name: <strong><span id="monsterName"></span></strong
+        ></span>
+        <span class="stat"
+          >Health: <strong><span id="monsterHealth"></span></strong
+        ></span>
+      </div>
+      <div id="text">
+        Welcome Little Unicorn. You must defeat the monsters before they eat all
+        the rainbows. You are flying through the clouds. Where do you want to
+        go? Use the buttons above.
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
